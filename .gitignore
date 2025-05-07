@@ -1,0 +1,16 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+.ipynb_checkpoints/*
+*-checkpoints.*
+*.ipynb_checkpoints/*
+# IPython
+profile_default/
+ipython_config.py
+
+# data to be download
+
+data/*.json*
+.DS_Store
+__pycache__
+*.zip
+create_password.py
