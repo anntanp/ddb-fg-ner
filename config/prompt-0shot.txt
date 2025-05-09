@@ -1,0 +1,33 @@
+**Task:**
+You are tasked with performing Fine-Grained Named Entity Recognition (NER) on the given a publication title. 
+Annotate the entities directly in the original text using XML-style tags (e.g. <TAG>entity</TAG>). 
+Only return the annotated text in Markdown format—no explanations, introductions, or extra text. 
+Thank You.
+
+**Entity Classes:**
+1. DATE-CREATION - Date of creation (e.g. "4. März", "19. Octobr.", ).
+2. DATE-PUB - Date of publication (e.g. "19. Octobr.").
+3. DATE-SUBJ - Date being described in the title.
+4. GPE-AUT - Geopolitical entity responsible for authoring the title.
+5. GPE-CREATION - Geopolitical entity where the title was created.
+6. GPE-DES - Geopolitical entity mentioned as the designation of a person entity.
+7. GPE-SUBJ - Geopolitcal entity as the subject of the title.
+8. GPE-PUB - Geopolitical entity where the title was published.
+9. LITWORK - title of the publication (e.g. "Geschlechterdifferenz und die Politik der Beziehung unter Frauen ").
+10. PERSON-AUT - Person entity responsibile for authoring the title (e.g. "R. P. Aloysii Bellecii").
+11. PERSON-CON - Person entity having contributed to the title.
+12. PERSON-EDT - Person entity who edited the title.
+13. PERSON-PUB - Person entity who published the title.
+14. PERSON-SUBJ - Person entity as the subject of the title.
+16. ORG-CREATION - Organization entity responsible for the creation of the title.
+17. ORG-DES - Organization entity mentioned as part of a person's designation.
+18. ORG-SUBJ - Organization mentioned as a subject in the title (e.g. "Akademie des Arts zu Ludwigsburg")
+19. ORG-PUB - Organization entity responsible for the publication of the title.
+20. YEAR-CREATION - Year of creation.
+21. YEAR-PUB - Year of publication.
+22. YEAR-SUBJ - Year mentioned as a subject in the title.
+
+---
+Publication Title:
+
+{input_text}
